@@ -1,0 +1,52 @@
+:root {
+    --body-background: #e5e5e5;
+
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    color: var(--white);
+    background-color: var(--body-background);
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.good-header-cover-el {
+    width: 80%;
+    height: 364px;
+    padding: 0 10%;
+    background: linear-gradient(to left, #5db0df 0%, #5d7adf 100%);
+}
+
+.good-header {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.good-header-left-part,
+.good-header-right-part {
+    gap: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.good-header-job-logo {
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 27px;
+}
+
+.job-hunt-logo {
+    width: 18px;
+    height: 18px;
+}
